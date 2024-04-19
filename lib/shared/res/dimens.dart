@@ -1,0 +1,59 @@
+class AppSize {
+  static const k0 = 0.0;
+  static const k1 = 1.0;
+  static const k2 = 2.0;
+  static const k3 = 3.0;
+  static const k6 = 6.0;
+  static const k4 = 4.0;
+  static const k5 = 5.0;
+  static const k8 = 8.0;
+  static const k10 = 10.0;
+  static const k11 = 11.0;
+  static const k12 = 12.0;
+  static const k14 = 14.0;
+  static const k16 = 16.0;
+  static const k18 = 18.0;
+  static const k20 = 20.0;
+  static const k22 = 22.0;
+  static const k24 = 24.0;
+  static const k25 = 25.0;
+  static const k27 = 27.0;
+  static const k30 = 30.0;
+  static const k32 = 32.0;
+  static const k34 = 34.0;
+  static const k38 = 38.0;
+  static const k40 = 40.0;
+  static const k44 = 44.0;
+  static const k50 = 50.0;
+  static const k54 = 54.0;
+  static const k56 = 56.0;
+  static const k60 = 60.0;
+  static const k64 = 64.0;
+  static const k70 = 70.0;
+  static const k72 = 72.0;
+  static const k80 = 80.0;
+  static const k90 = 90.0;
+  static const k98 = 98.0;
+  static const k100 = 100.0;
+  static const k114 = 114.0;
+  static const k118 = 118.0;
+  static const k120 = 120.0;
+  static const k124 = 124.0;
+  static const k130 = 130.0;
+  static const k140 = 140.0;
+  static const k144 = 144.0;
+  static const k150 = 150.0;
+  static const k160 = 160.0;
+  static const k170 = 170.0;
+  static const k200 = 200.0;
+  static const k238 = 238.0;
+  static const k255 = 255.0;
+  static const k280 = 280.0;
+  static const k288 = 288.0;
+  static const k290 = 290.0;
+  static const k350 = 350.0;
+}
+
+class AppFontSize {
+  static const k16 = 16.0;
+}

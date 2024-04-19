@@ -1,0 +1,56 @@
+name: test_weather
+description: "Test Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0-247.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  auto_route: ^8.0.3
+  dio: ^5.4.3+1
+  flutter_bloc: ^8.1.5
+  json_serializable: ^6.7.1
+  json_annotation: ^4.8.1
+  get_it: ^7.7.0
+  equatable: ^2.0.5
+  build_runner: ^2.4.9
+  flutter_gen_runner: ^5.4.0
+  cupertino_icons: ^1.0.6
+  overlay_support: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^8.0.0
+  flutter_lints: ^3.0.0
+
+
+flutter_gen:
+  integrations:
+    flutter_svg: true
+  assets:
+    enabled: true
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/proxima_nova/ProximaNova-Light.ttf
+          weight: 300
+        - asset: assets/fonts/proxima_nova/ProximaNova-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/proxima_nova/ProximaNova-Semibold.ttf
+          weight: 600
+        - asset: assets/fonts/proxima_nova/ProximaNova-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/proxima_nova/ProximaNova-Extrabld.ttf
+          weight: 800
